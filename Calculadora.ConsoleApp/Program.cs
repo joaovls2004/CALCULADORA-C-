@@ -45,10 +45,10 @@ while (deveContinuar == true) // condição
         Console.WriteLine();
 
         // int = número inteiro
-        int primeiroNumero = Convert.ToInt32(strPrimeiroNumero);
-        int segundoNumero  = Convert.ToInt32(strSegundoNumero);
+        double primeiroNumero = Convert.ToDouble(strPrimeiroNumero);
+        double segundoNumero  = Convert.ToDouble(strSegundoNumero);
 
-        int resultado;
+        double resultado;
 
         if(operacaoSelecionada == "1")
         {
